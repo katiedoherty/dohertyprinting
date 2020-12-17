@@ -8,13 +8,15 @@
 }
 
 /*header--------*/
-.header-image{
-    background-color:#5271FF;
+.header-cover{
+    background-color: rgb(201, 225, 233);
 }
 h1{
-    color:white;
+    color:rgb(83, 82, 82);
     padding:3%;
     padding-bottom:0;
+    font-family:"Roboto", sans-serif;
+    font-weight: 700;
 }
 .get-a-qoute{
     padding-left:3%;
@@ -22,6 +24,8 @@ h1{
     padding-top:0;
 }
 
-.btn{
-    background-color:#FFBD4A;
+/*------images in header*/
+.memorial-card{
+    margin-left: 70%;
+   display:inline-block;
 }
