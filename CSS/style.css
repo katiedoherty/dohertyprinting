@@ -3,6 +3,11 @@
     margin:0;
     padding:0;
 }
+
+h2{
+    font-family:"roboto", sans-serif;
+    font-weight:570;
+}
 /*navbar------------------*/
 .navbar{
     padding-left:0;
@@ -31,4 +36,35 @@ h1{
 /*------images in header*/
 .memorial-card{
         background-image:url("../headerpics/mem.jpg") no-repeat bottom right fixed;
+      }
+
+      /*What do we do */
+      .what-we-do{
+          text-align:left;
+          font-family:"roboto", sans-serif;
+          font-size:17px;
+      }
+
+      /*mission statement*/
+      .mission{
+          text-align:center;
+          font-family:"Roboto", sans-serif;
+          background-color:rgb(201, 225, 233);
+          padding-top: 20px;
+          font-weight:550;
+          font-style: italic;
+          font-size:20px;
+      }
+
+      /*Our Products*/
+      .our-products{
+          text-align: center;
+          font-family:"Roboto", sans-serif;
+      }
+
+      /*Contact Us*/
+      .contact{
+          text-align:center;
+          font-family:"Roboto";
+          background-color: rgb(201, 225, 233);
       }
