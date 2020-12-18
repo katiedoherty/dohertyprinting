@@ -43,6 +43,7 @@ h1{
           text-align:left;
           font-family:"roboto", sans-serif;
           font-size:17px;
+          margin-left:3.2%;
       }
 
       /*mission statement*/
@@ -68,3 +69,11 @@ h1{
           font-family:"Roboto";
           background-color: rgb(201, 225, 233);
       }
+
+      .form{
+          margin:0 auto;
+          max-width:70%;
+      }
+
+
+      
