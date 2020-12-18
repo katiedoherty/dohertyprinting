@@ -1,4 +1,8 @@
 
+*{
+    margin:0;
+    padding:0;
+}
 /*navbar------------------*/
 .navbar{
     padding-left:0;
@@ -26,6 +30,5 @@ h1{
 
 /*------images in header*/
 .memorial-card{
-    margin-left: 70%;
-   display:inline-block;
-}
+        background-image:url("../headerpics/mem.jpg") no-repeat bottom right fixed;
+      }
