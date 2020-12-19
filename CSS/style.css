@@ -22,20 +22,23 @@ h2{
 }
 h1{
     color:rgb(83, 82, 82);
-    padding:3%;
+    padding:2%;
     padding-bottom:0;
     font-family:"Roboto", sans-serif;
     font-weight: 700;
     padding-top:3%;
-    font-size:50px;
+    font-size:52px;
+    
+    
 }
 .get-a-qoute{
-    padding-left:3%;
-    padding-bottom:3%;
+    padding-left:2%;
+    padding-bottom:3.8%;
     padding-top:0;
     
 }
 .qoutebutton{
+    
 height:70px;
 width:200px;
 font-size:30px;
@@ -43,11 +46,13 @@ font-size:30px;
 
 .slideshow{
     float:right;
-    height:400px;
-    width:580px;
-    margin-right:5%;
-    margin-top:1%;
+    height:560px;
+    width:680px;
+    margin-right:0%;
+    margin-top:0%;
+    padding:0;
 }
+
 
 
 
@@ -56,7 +61,7 @@ font-size:30px;
           text-align:left;
           font-family:"roboto", sans-serif;
           font-size:17px;
-          margin-left:3.2%;
+          margin-left:6.2%;
       }
 
       /*mission statement*/
