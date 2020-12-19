@@ -26,17 +26,30 @@ h1{
     padding-bottom:0;
     font-family:"Roboto", sans-serif;
     font-weight: 700;
+    padding-top:3%;
+    font-size:50px;
 }
 .get-a-qoute{
     padding-left:3%;
-    padding-bottom:2%;
+    padding-bottom:3%;
     padding-top:0;
+    
+}
+.qoutebutton{
+height:70px;
+width:200px;
+font-size:30px;
 }
 
-/*------images in header*/
-.memorial-card{
-        background-image:url("../headerpics/mem.jpg") no-repeat bottom right fixed;
-      }
+.slideshow{
+    float:right;
+    height:400px;
+    width:580px;
+    margin-right:5%;
+    margin-top:1%;
+}
+
+
 
       /*What do we do */
       .what-we-do{
