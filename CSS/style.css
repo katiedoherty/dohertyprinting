@@ -82,6 +82,69 @@ font-size:30px;
           font-family:"Roboto", sans-serif;
       }
 
+      .memorialcards{
+          display: inline-block;
+          width: 300px;
+          height: 300px;
+           padding: 5px;
+           background: black url(img/IMG_0629.jpeg) no-repeat center;
+           background-size:cover;
+           float:left;
+            margin-left:200px;
+            margin-bottom:35px;
+            margin-top:10px;
+      }
+
+      .opaque-overlay{
+          position:absolute;
+          margin-left:215px;
+            margin-bottom:35px;
+            margin-top:30px;
+          height:270px;
+          width:270px;
+          background-color:rgba(0, 0, 0, 0.5);
+          
+      }
+
+      .product{
+          position:absolute;
+          color:white;
+          text-align:center;
+          margin-top: 120px;
+          margin-left:275px;
+      }
+
+      .opaque-2{
+           position:absolute;
+          margin-left:615px;
+            margin-bottom:35px;
+            margin-top:30px;
+          height:270px;
+          width:270px;
+          background-color:rgba(0, 0, 0, 0.5);
+      }
+
+      .weddinginvitations{
+          display: inline-block;
+          width: 300px;
+          height: 300px;
+           padding: 5px;
+           background: black url(img/weddingstationery.jpg) no-repeat center;
+           background-size:cover;
+           float:left;
+            margin-left:100px;
+            margin-bottom:35px;
+            margin-top:10px;
+      }
+
+      .product2{
+          position:absolute;
+          color:white;
+          text-align:center;
+          margin-top: 120px;
+          margin-left:675px;
+      }
+
       /*Contact Us*/
       .contact{
           text-align:center;
@@ -94,7 +157,7 @@ font-size:30px;
           max-width:70%;
       }
 
-      @media screen and (max-width:1066px){
+      @media screen and (max-width:1266px){
           
           
 
@@ -123,7 +186,7 @@ font-size:30px;
 
       }
 
-      @media screen and (max-width:500px){
+      @media screen and (max-width:750px){
           /*logo*/
           .logo{
               margin-left:0px;
