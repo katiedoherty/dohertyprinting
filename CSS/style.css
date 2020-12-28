@@ -224,9 +224,41 @@ font-size:30px;
               
           }
 
+          /*Our Products*/
+
+          .ourproducts{
+              text-align:center;
+          }
+          .memorialcards{
+              margin-left:0px;
+              
+          }
+
+          .product{
+              margin-left:112px;
+          }
+
+          .opaque-overlay{
+              margin-left:10px;
+          }
+
+          .weddinginvitations{
+              margin-left:36px;
+          }
+
+          .product2{
+              margin-left:112px;
+              margin-top: 460px;
+          }
+
+          .opaque-2{
+              margin-left:52px;
+              margin-top: 373px;
+          }
+
       }
 
-      @media screen and (max-width:800px){
+      @media screen and (max-width:960px){
 
         /*header*/
           .slideshow{
@@ -257,6 +289,47 @@ font-size:30px;
           .mission{
               font-size:20px;
               padding-top:10px;
+          }
+
+          /*our products*/
+
+          .ourproducts{
+              text-align:center;
+          }
+
+          .memorialcards{
+              margin-left: 80px;
+              width:250px;
+              height:250px;
+          }
+
+          .opaque-overlay{
+              width:220px;
+              height:220px;
+              margin-left:95px;
+          }
+
+          .product{
+              margin-left:135px;
+              margin-top:100px;
+          }
+
+          .weddinginvitations{
+              margin-left: 40px;
+              width:250px;
+              height:250px;
+          }
+
+          .product2{
+              margin-left:415px;
+              margin-top:100px;
+          }
+
+          .opaque-2{
+              width:220px;
+              height:220px;
+              margin-left:385px;
+
           }
 
       }
