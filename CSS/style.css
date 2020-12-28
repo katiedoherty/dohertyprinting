@@ -257,14 +257,22 @@ font-size:30px;
               transform: translate(-50%, -50%);
               position:absolute;
               margin-top:480px;
-              /*margin-left:185px;*/
-              
           }
 
           .weddinginvitations{
               float:none;
           }
 
+          
+
+         
+
+          .oppy{
+            display:flex;
+            justify-content: center;
+            margin-top:320px;
+            }
+             
           .contact{
               margin-top:650px;
           }
