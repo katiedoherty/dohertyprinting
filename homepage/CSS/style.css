@@ -54,6 +54,10 @@ font-size:30px;
     padding:0;
 }
 
+.cover-padding{
+    padding:0px 0px 10px 0px;
+    margin:0px;
+}
 
 
 
@@ -62,14 +66,32 @@ font-size:30px;
           text-align:left;
           font-family:"roboto", sans-serif;
           font-size:17px;
-          margin-left:6.2%;
+          margin-left:2%;
+          margin-top:0;
+          float:right;
+          background-color:white;
+          margin-bottom:10px;
+          padding:10px 0px 10px 0px;
+      }
+
+      .section2-picture1{
+          position:relative;
+          display: inline-block;
+          width: 250px;
+          height: 200px;
+           padding: 5px;
+           background: black url(img/weddinginvite.jpg) no-repeat center center;
+           background-size:cover;
+           margin-left:600px;
+           float:right;
+           
       }
 
       /*mission statement*/
       .mission{
           text-align:center;
           font-family:"Roboto", sans-serif;
-          background-color:rgb(201, 225, 233);
+          background-color:white;
           padding-top: 20px;
           font-weight:550;
           font-style: italic;
@@ -264,17 +286,39 @@ font-size:30px;
           }
 
           
-
-         
-
           .oppy{
             display:flex;
             justify-content: center;
             margin-top:320px;
+            margin-right:15px;
             }
-             
+
+
+          .weddingproduct{
+              display:flex;
+            justify-content: center;
+            margin-right:63px;
+          }
+
+          
+
+          .opaque-child{
+              
+              display:flex;
+            justify-content: center;
+            margin:auto 0;
+            margin-top:-10px;
+            margin-right:40px;
+          }
+
+          .opaque-title{
+              display:flex;
+            justify-content: center;
+            margin-right:115px;
+          }
+
           .contact{
-              margin-top:650px;
+              margin-top:350px;
           }
 
       }
