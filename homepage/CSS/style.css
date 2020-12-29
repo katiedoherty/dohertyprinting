@@ -55,7 +55,7 @@ font-size:30px;
 }
 
 .cover-padding{
-    padding:0px 0px 10px 0px;
+    padding:0px;
     margin:0px;
 }
 
@@ -68,34 +68,27 @@ font-size:30px;
           font-size:17px;
           margin-left:2%;
           margin-top:0;
-          float:right;
-          background-color:white;
+          float:left;
           margin-bottom:10px;
-          padding:10px 0px 10px 0px;
+          padding:0px;
       }
 
-      .section2-picture1{
-          position:relative;
-          display: inline-block;
-          width: 250px;
-          height: 200px;
-           padding: 5px;
-           background: black url(img/weddinginvite.jpg) no-repeat center center;
-           background-size:cover;
-           margin-left:600px;
-           float:right;
+     
            
-      }
+      
 
       /*mission statement*/
       .mission{
           text-align:center;
           font-family:"Roboto", sans-serif;
-          background-color:white;
           padding-top: 20px;
           font-weight:550;
           font-style: italic;
           font-size:20px;
+      }
+
+      .statement{
+          background-color:rgb(201, 225, 233);
       }
 
       /*Our Products*/
