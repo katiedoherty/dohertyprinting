@@ -7,6 +7,20 @@
 h2{
     font-family:"roboto", sans-serif;
     font-weight:570;
+    color:rgb(83, 82, 82);
+}
+
+h3{
+    font-family:"roboto", sans-serif;
+    color:rgb(83, 82, 82);
+}
+
+p{
+    color:rgb(83, 82, 82);
+}
+
+h5{
+    color:rgb(83, 82, 82);
 }
 /*navbar------------------*/
 .navbar{
@@ -55,6 +69,7 @@ font-size:30px;
 }
 
 .cover-padding{
+    margin-bottom:10px;
     padding:0px 0px 10px 0px;
     
 }
@@ -81,7 +96,7 @@ font-size:30px;
               float:right;
               margin-top:10px;
               margin-left:40px;
-              border: 5px solid rgb(177, 177, 190);
+              border: 7px solid rgb(201, 225, 233);
       }
 
       .whatdowedopic2{
@@ -92,7 +107,7 @@ font-size:30px;
               background-size: cover; 
               float:right;
               margin-top:100px;
-              border: 5px solid rgb(177, 177, 190);
+              border: 7px solid rgb(201, 225, 233);
               margin-left:275px;
       }
 
@@ -102,13 +117,13 @@ font-size:30px;
 
       /*mission statement*/
       .mission{
-          margin-top:10px;
+          margin-top:20px;
+          margin-bottom:10px;
           text-align:center;
           font-family:"Roboto", sans-serif;
-          padding-top: 20px;
-          font-weight:550;
-          font-style: italic;
-          font-size:20px;
+          padding-top: 30px;
+          padding-bottom:30px;
+          font-style: bold;
           background-color:rgb(201, 225, 233);
       }
 
@@ -226,6 +241,40 @@ font-size:30px;
          margin-bottom:10px;
      }
 
+     .general-footer-styles{
+         padding-top:30px;
+         padding-bottom:30px;
+         margin:0;
+         font-family:"roboto", sans-serif;
+     }
+
+     .fa-envelope{
+         height:20px;
+         width:20px;
+     }
+
+     .fa-phone{
+         height:20px;
+         width:20px;
+     }
+
+     .fa-mobile-alt{
+         height:20px;
+         width:20px;
+     }
+
+     .facebook i{
+         font-size:30px;
+         color:blue;
+     }
+
+     .facebook{
+         color:blue;
+         padding-top:25px;
+     }
+
+     
+
       @media screen and (max-width:1200px){
 
         /*cover*/
@@ -301,6 +350,8 @@ font-size:30px;
           .product{
               margin-left:225px;
           }
+
+          
 
       }
 
@@ -411,7 +462,26 @@ font-size:30px;
               margin-top:350px;
           }
 
+          /*footer*/
+
+          .general-footer-styles{
+              padding:0;
+              text-align: center;
+          }
+
+          .address{
+              padding-top:20px;
+              margin-top:10px;
+          }
+
+          .facebook{
+              padding-bottom:20px;
+              margin-bottom:10px;
+          }
+
       }
+
+     
 
       @media screen and (max-width:991px){
           /*our products*/
@@ -422,6 +492,12 @@ font-size:30px;
 
           .opaque-title{
               margin-left:-125px;
+          }
+
+          /*footer*/
+
+          .dohertylogo{
+              display:none;
           }
       }
 
@@ -467,6 +543,9 @@ font-size:30px;
           .mission{
               margin-top:0;
           }
+
+
+          
       }
 
       @media screen and (max-width:900px){
