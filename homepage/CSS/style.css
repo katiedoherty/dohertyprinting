@@ -47,16 +47,16 @@ font-size:30px;
 
 .slideshow{
     float:right;
-    height:560px;
+    height:400px;
     width:680px;
     margin-right:0%;
     margin-top:0%;
-    padding:0;
+    padding:0px;
 }
 
 .cover-padding{
-    padding:0px;
-    margin:0px;
+    padding:0px 0px 10px 0px;
+    
 }
 
 
@@ -66,11 +66,34 @@ font-size:30px;
           text-align:left;
           font-family:"roboto", sans-serif;
           font-size:17px;
-          margin-left:2%;
-          margin-top:0;
+          margin-left:20px;
+          margin-top:10px;
           float:left;
           margin-bottom:10px;
-          padding:0px;
+          padding:10px;
+      }
+
+      .whatwedopic1{
+          background: black url(img/weddinginvite.jpg) no-repeat center center;
+              width:300px;
+              height:200px;
+              background-size: cover; 
+              float:right;
+              margin-top:10px;
+              margin-left:40px;
+              border: 5px solid rgb(177, 177, 190);
+      }
+
+      .whatdowedopic2{
+          position:absolute;
+          background: black url(img/IMG_0642.jpeg) no-repeat center center;
+              width:250px;
+              height:150px;
+              background-size: cover; 
+              float:right;
+              margin-top:100px;
+              border: 5px solid rgb(177, 177, 190);
+              margin-left:275px;
       }
 
      
@@ -79,22 +102,35 @@ font-size:30px;
 
       /*mission statement*/
       .mission{
+          margin-top:10px;
           text-align:center;
           font-family:"Roboto", sans-serif;
           padding-top: 20px;
           font-weight:550;
           font-style: italic;
           font-size:20px;
-      }
-
-      .statement{
           background-color:rgb(201, 225, 233);
       }
+
+      .mission p{
+          padding-bottom:10px;
+          padding-top:10px;
+          padding-left:10px;
+          padding-right:10px;
+      }
+
+     
 
       /*Our Products*/
       .ourproducts{
           text-align: center;
           font-family:"Roboto", sans-serif;
+          padding:10px;
+          margin-top:10px;
+      }
+
+      .pcard{
+          padding-bottom:10px;
       }
 
       .memorialcards{
@@ -158,23 +194,65 @@ font-size:30px;
           margin-left:75px;
       }
 
+      
+
       /*Contact Us*/
       .contact{
+          margin-top:10px;
           text-align:center;
           font-family:"Roboto";
           background-color: rgb(201, 225, 233);
       }
 
+      .contact h2{
+          padding-top:10px;
+          margin-top:10px;
+      }
+
       .form{
           margin:0 auto;
           max-width:70%;
+          padding:10px;
       }
 
-      @media screen and (max-width:1266px){
+     .form-control{
+         margin-bottom:10px;
+     }
+     #exampleFormControlTextarea1{
+         margin-bottom:20px;
+     }
+
+     .contact h5{
+         margin-bottom:10px;
+     }
+
+      @media screen and (max-width:1200px){
+
+        /*cover*/
+          .slideshow{
+              height:350px;
+              width:580px;
+          }
+
+          h1{
+              font-size:42px;
+          }
+
+          /*what-do-we do section*/
+          .whatdowedopic2{
+              margin-left:210px;
+          }
+      }
+
+      @media screen and (max-width:1050px){
           
           
 
           /*header*/
+
+          .cover-padding{
+              padding:0px 0px 30px 0px
+          }
           .slideshow{
               height:400px;
               width:550px;
@@ -193,8 +271,26 @@ font-size:30px;
           }
 
           /*whqat do we do section*/
-          .what-we-do{
-              margin-left:0px;
+          
+
+          .whatdowedopic2{
+              margin-left:60px;
+              margin-top:160px;
+              height:150px;
+              width:250px;
+              margin-bottom:10px;
+          }
+
+          .whatwedopic1{
+              height:150px;
+              width:250px;
+              margin-top:0px;
+              margin-left:60px;
+          }
+
+          /*mission*/
+          .mission{
+              margin-top:50px;
           }
 
           /*our products*/
@@ -208,7 +304,7 @@ font-size:30px;
 
       }
 
-      @media screen and (max-width:750px){
+      @media screen and (max-width:767px){
           /*logo*/
           .logo{
               margin-left:0px;
@@ -234,16 +330,17 @@ font-size:30px;
           
 
           /*what do we do section*/
-          .what-we-do{
-              margin-left:0px;
-          }
+          
 
           .picture{
               background: black url(img/memorial.jpg) no-repeat center center;
               width:100%;
               height:300px;
               background-size: cover; 
-              
+          }
+
+          .whatwedopic1{
+              display:none;
           }
 
           /*Our Products*/
@@ -316,9 +413,69 @@ font-size:30px;
 
       }
 
+      @media screen and (max-width:991px){
+          /*our products*/
+
+          .opaque-child{
+              margin-left:-125px;
+          }
+
+          .opaque-title{
+              margin-left:-125px;
+          }
+      }
+
       @media screen and (max-width:960px){
+          .cover-padding{
+            padding:0px 0px 0px 0px;
+        }
+
+        .slideshow{
+              height:310px;
+              width:480px;
+              margin-right:0px;
+              
+          }
+
+          h1{
+              font-size:35px;
+          }
+
+          .qoutebutton{
+              height:50px;
+              width:150px;
+              font-size:20px;
+              margin:0;
+          }
+
+          /*What do we do section*/
+
+          .what-we-do{
+              margin-left:0;
+          }
+
+          .whatdowedopic2{
+              display:none;
+          }
+
+          .whatwedopic1{
+              height:200px;
+              width:300px;
+              margin-top:80px;
+          }
+
+          .mission{
+              margin-top:0;
+          }
+      }
+
+      @media screen and (max-width:900px){
 
         /*header*/
+
+        .cover-padding{
+            padding-bottom:20px;
+        }
           .slideshow{
               height:310px;
               width:420px;
@@ -339,20 +496,31 @@ font-size:30px;
 
           /*what do we do section*/
           .what-we-do{
-              margin-left:0px;
-              margin-right:0;
               font-size:15px;
+          }
+
+          .whatwedopic1{
+              margin-top:50px;
+              margin-left:20px;
           }
 
           .mission{
               font-size:20px;
-              padding-top:10px;
+              margin-top:0px;
           }
 
           /*our products*/
 
           .ourproducts{
               text-align:center;
+          }
+
+           .opaque-child{
+              margin-left:0px;
+          }
+
+          .opaque-title{
+              margin-left:0px;
           }
 
 
