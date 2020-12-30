@@ -78,6 +78,7 @@ font-size:30px;
 
       /*What do we do */
       .what-we-do{
+          display:inline-block;
           text-align:left;
           font-family:"roboto", sans-serif;
           font-size:17px;
@@ -88,11 +89,12 @@ font-size:30px;
           padding:10px;
       }
 
-     .weddingvid{
-         display:inline-block;
-         float:right;
-         margin-left:600px;   
-     }
+    .video{
+        margin:0 auto;
+        float: right;
+        display:inline-block;
+        margin-right:-600px;
+    }
 
      
 
@@ -311,7 +313,7 @@ font-size:30px;
           /*header*/
 
           .cover-padding{
-              padding:0px 0px 30px 0px
+              padding:0px 0px 30px 0px;
           }
           .slideshow{
               height:400px;
@@ -384,13 +386,28 @@ font-size:30px;
           
 
           /*what do we do section*/
+
           
 
-        
-
+         .sm-vid{
+             text-align:center; 
+             
+         }
          
 
+         .what-we-do{
+             text-align:center;
+         }
+
+          /*mission*/
+
+          .margin-mission{
+              margin-top: 20px;
+          }
+
           /*Our Products*/
+
+          
 
           .memorialcards{
               float:none;
@@ -491,6 +508,20 @@ font-size:30px;
             font-size: 36px;
         }
 
+        /*what we do*/
+
+        
+         .mobile-vid{
+              margin:0 auto;
+        float: right;
+        display:inline-block;
+        margin-right:-400px;
+        text-align:center;
+        margin-top:25px;
+         }
+
+         
+
         
           /*our products*/
 
@@ -540,15 +571,6 @@ font-size:30px;
               margin-left:0;
           }
 
-          .whatdowedopic2{
-              display:none;
-          }
-
-          .whatwedopic1{
-              height:200px;
-              width:300px;
-              margin-top:80px;
-          }
 
           .mission{
               margin-top:0;
@@ -586,10 +608,14 @@ font-size:30px;
               font-size:15px;
           }
 
-          .whatwedopic1{
-              margin-top:50px;
-              margin-left:20px;
-          }
+          .mobile-vid{
+              margin:0 auto;
+        float: right;
+        display:inline-block;
+        margin-right:-400px;
+        text-align:center;
+        margin-top:10px;
+         }
 
           .mission{
               font-size:20px;
