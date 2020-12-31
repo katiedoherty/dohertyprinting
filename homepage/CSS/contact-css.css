@@ -1,0 +1,89 @@
+
+/*General styles*/
+h2{
+    font-family:"roboto", sans-serif;
+    font-weight:570;
+    color:rgb(83, 82, 82);
+}
+
+h3{
+    font-family:"roboto", sans-serif;
+    color:rgb(83, 82, 82);
+}
+
+p{
+    color:rgb(83, 82, 82);
+}
+
+h5{
+    color:rgb(83, 82, 82);
+}
+/*navbar------------------*/
+.navbar{
+    font-family:"Roboto", sans-serif ;
+    font-size:.75em;
+    margin-top:0;
+}
+
+.contact{
+          margin-top:10px;
+          text-align:center;
+          font-family:"Roboto";
+          background-color: rgb(201, 225, 233);
+          min-height: 70vh;
+      }
+
+      .contact h2{
+          padding-top:10px;
+          margin-top:10px;
+      }
+
+      .form{
+          margin:0 auto;
+          max-width:70%;
+          padding:10px;
+      }
+
+     .form-control{
+         margin-bottom:10px;
+     }
+     #exampleFormControlTextarea1{
+         margin-bottom:20px;
+     }
+
+     .contact h5{
+         margin-bottom:10px;
+     }
+
+     /*FOOTER*/
+     .general-footer-styles{
+         padding-top:30px;
+         padding-bottom:30px;
+         margin:0;
+         font-family:"roboto", sans-serif;
+     }
+
+     .fa-envelope{
+         height:20px;
+         width:20px;
+     }
+
+     .fa-phone{
+         height:20px;
+         width:20px;
+     }
+
+     .fa-mobile-alt{
+         height:20px;
+         width:20px;
+     }
+
+     .facebook i{
+         font-size:30px;
+         color:blue;
+     }
+
+     .facebook{
+         color:blue;
+         padding-top:25px;
+     }
