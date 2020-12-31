@@ -89,7 +89,7 @@ font-size:30px;
       }
 
       .whatwedopic1{
-          background: black url(img/weddinginvite.jpg) no-repeat center center;
+          background: black url(img/memcard.jpeg) no-repeat center center;
               width:300px;
               height:200px;
               background-size: cover; 
@@ -149,11 +149,13 @@ font-size:30px;
       }
 
       .product2:hover{
-          transform:scale(1.05)
+          transform:scale(1.05);
+          color:rgb(201, 225, 233);
       }
 
        .product:hover{
-          transform:scale(1.1)
+          transform:scale(1.1);
+          color:rgb(201, 225, 233);
       }
 
       .memorialcards{
@@ -202,7 +204,7 @@ font-size:30px;
           width: 300px;
           height: 300px;
            padding: 5px;
-           background: black url(img/weddingstationery.jpg) no-repeat center;
+           background: black url(img/bookmark.jpeg) no-repeat center;
            background-size:cover;
            float:left;
             margin-bottom:35px;
