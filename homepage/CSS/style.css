@@ -148,6 +148,14 @@ font-size:30px;
           padding-bottom:10px;
       }
 
+      .product2:hover{
+          transform:scale(1.05)
+      }
+
+       .product:hover{
+          transform:scale(1.1)
+      }
+
       .memorialcards{
           display: inline-block;
           width: 300px;

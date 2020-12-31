@@ -1,5 +1,9 @@
 
 /*General styles*/
+
+.uscontact{
+    margin-top:100px;
+}
 h2{
     font-family:"roboto", sans-serif;
     font-weight:570;
@@ -87,3 +91,37 @@ h5{
          color:blue;
          padding-top:25px;
      }
+
+    @media screen and (max-width:991px){
+        /*footer*/
+
+        .dohertylogo{
+              display:none;
+          }
+
+        }
+      @media screen and (max-width:767px){
+
+        /*contact*/
+        .uscontact{
+    margin-top:0px;
+}
+
+        /*footer*/
+
+         .general-footer-styles{
+              padding:0;
+              text-align: center;
+          }
+
+          .address{
+              padding-top:20px;
+              margin-top:10px;
+          }
+
+          .facebook{
+              padding-bottom:20px;
+              margin-bottom:10px;
+          }
+
+    }
