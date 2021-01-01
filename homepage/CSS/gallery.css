@@ -136,4 +136,22 @@ h5{
               margin-bottom:10px;
           }
 
+          .photo{
+              column-count: 2;
+          }
+
     }
+
+    @media screen and (max-width:991px){
+        .photo{
+            column-count: 3;
+        }
+    }
+
+    
+    @media screen and (max-width:1050px){
+        .photo{
+            column-count: 3;
+        }
+    }
+
