@@ -1,4 +1,4 @@
-* Doherty Printing
+# Doherty Printing
 
 This project was created for my mother’s small business. She sells memorial cards and wedding stationery. 
 She wanted a place where she could display pictures of her cards to customers and establish a presence on 
@@ -128,8 +128,8 @@ If the user deos not want to read all this extra information they can go directl
 
 I decided to go with neutral colours and provide lots of images of the product on offer.
 
-![GitHub Logo](/documentation/mockup.png)
-Format: ![Alt Text](url)
+
+Format: ![picture-of-website](documentation/mockup)
 
 Here is a link to my wireframes:
 [Adobe Indesign](https://xd.adobe.com/view/ed4d6c7c-4ef5-40ac-acb4-6c2eb00fafcf-b81e/)
@@ -141,6 +141,7 @@ Here is a link to my wireframes:
 * I inserted a navbar dropdown menu. This will help the user find the galleries which showcase the cards much quicker then if they were to scroll on the page.
 * I linked the website to the company’s social media pages. This will take the consumer to Doherty printing's social media to see reviews about the product.
 * I added in a number of calls to actions which all relate to our end goal which is getting people to email the supplier about the cards.
+* I added a video that people can watch, pause and view on full screen.
 
 ### Features I would like to add in the future
 * I want to add in a javascript gallery which will allow the user to click on the image and see the image in a bigger size with a short desription about the product and the price.
@@ -161,6 +162,7 @@ Used for the layout of my design.
 * Adobe Photoshop:
 Used to edit or crop my photos to size.
 
+* W3School: used their validators to check my code for bugs.
 
 ## Testing
 
@@ -171,12 +173,36 @@ Used to edit or crop my photos to size.
 5. I used the WS3 Validators for HTML and CSS to debug any errors on each page of the website. There were not too many bugs except for forgetting to add the alt text to some pictures, changing the font weight of the heading from 570 to 600 and changing the font style from bold.
 6. I checked Lightroom in Developers tools to make sure that nothing had a score of under 50%, everything had a score of 75% and higher.
 7. I have checked every screen size and have made sure that the site looks good on all screen sizes. Getting the measurements for the carousel of pictures in the header was a challenge as it would change at every screen size, so I had to be very precise with with the measurements and I used media queries to get the exact size.
+8. I have looked up the responsiveness of the website with Am I Responsive a site which shows you what your website looks like on diffrent screen sizes. I found that it looked good on all devices except for the wedding stationery homepage on very large screens. The cover photo is obstructing the website, I will need to fix this before publishing the site.
+
+## Deployment
+
+I used GitHub pages to deploy my website.
+
+1. I created a repository on GitHub, added the template Code Institute provided and named it Doherty Printing.
+2. I pressed the Gitpod green button to commence the project.
+3. I added files to Git and used the git add . command
+4. Conducted regular commits.
+5. Used the git push command to push you project.
+6. I had all files in a folder and therefore had to move all the files out of that folder and push the files to GitHub because Github Pages was not recognising index.html as my root.
+7. Then I clicked on settings
+8. Scrolled down to GitHub Pages
+9. Clicked on master branch and my website was live.
+
+
+To run my code locally, users can clone this by clicking on the targeted repo, click 'clone or download' and 'download zip'. 
 
 
 ## Credits
 
 * [Code Sonia](https://codesonia.github.io/CodeSonia_Personal_Portfolio/): I was having trouble getting my navbar to go to the right so I had a look at Code Sonia's code to see how she did it and used that to get the elements in the navbar to stay at the right.
-* 
+* [Bootstrap](https://careerkarma.com/blog/bootstrap-dropdown/): I used this code to create a drop down menu when you click on wedding stationery or memorial cards.
+* [w3schools](https://www.w3schools.com/Css/css_inline-block.asp): I used w3schools as a reference on how to align two divs horizontally.
+* [w3schools](https://www.w3.org/Style/Examples/007/center.en.html#vertical3): I used this similar piece of code as a reference to center the boxes in the "Our Products" section on small devices. This code helped me to keep those boxes centered on all sized small devices.
+* [Bootstrap](https://getbootstrap.com/docs/4.0/components/carousel/): I used this carousel as part of the cover photo for my website.
+* [Bootstrap](https://code.luasoftware.com/tutorials/bootstrap/bootstrap-hide-element-based-on-viewport-size/)- This showed me how to hide specific elements on certain screen sizes. I had to hide the video on the homepage for wedding stationery on each screen size as I couldnt resize the video to make it smaller to view on smaller screen sizes.
+* [Tutor-Support] Igor from Code Institutes Tutor Support helped me figure out why I couldn't add images onto my website using CSS. I had to add a fallback background colour. Anna from tutor support also helped me on slack. I couldn't figure out how to deploy my project onto GitHub pages and she gave me she gave me some direction on how to take index.html out of the folder it was in and get rid of errors.
+
 
 
 
