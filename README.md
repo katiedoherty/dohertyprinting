@@ -1,12 +1,12 @@
 
-*Doherty Printing
+# Doherty Printing
 
 This project was created for my mother’s small business. She sells memorial cards and wedding stationery. 
 She wanted a place where she could display pictures of her cards to customers and establish a presence on 
 the web. The purpose of this site was to inform customers what Doherty Printing sells, who they are and to display 
 a portfolio of their cards for customers to view them. 
 
-*UX
+# UX
 As part of this project I had two different target audiences, so I created two user personas.
 
 1. Memorial cards
@@ -128,8 +128,6 @@ If the user deos not want to read all this extra information they can go directl
 ## Surface
 
 I decided to go with neutral colours and provide lots of images of the product on offer.
-
-<img src="documentation/mockup.png>
 
 Here is a link to my wireframes:
 [Adobe Indesign](https://xd.adobe.com/view/ed4d6c7c-4ef5-40ac-acb4-6c2eb00fafcf-b81e/)
