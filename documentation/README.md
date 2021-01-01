@@ -76,7 +76,7 @@ Once I know javascript I will be able to make the galleries more interactive so 
 
 The business is targeting two sectors, so I made one general homepage and two other homepages, one for Memorial Cards and one for Wedding Stationery. I wanted to create a seperate homepage for memorial cards and wedding stationery as it will target those keywords specifically when people search for them on Google and it will bring them to the page, they want from directly from Google search. This will make it easier for the prospect to find what they are looking for quicker.
 
-## Customer searching for memorial cards/wedding invites.
+### Customer searching for memorial cards/wedding invites.
 
 1. Deos a Google search memorial cards/wedding invites, Limerick.
 2. Clicks onto our site and is bought to our homepage for memorial cards or wedding stationery.
@@ -142,7 +142,7 @@ Here is a link to my wireframes:
 * I linked the website to the company’s social media pages. This will take the consumer to Doherty printing's social media to see reviews about the product.
 * I added in a number of calls to actions which all relate to our end goal which is getting people to email the supplier about the cards.
 
-## Features I would like to add in the future
+### Features I would like to add in the future
 * I want to add in a javascript gallery which will allow the user to click on the image and see the image in a bigger size with a short desription about the product and the price.
 
 ## Technologies Used
