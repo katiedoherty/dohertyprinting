@@ -6,7 +6,7 @@
 
 h2{
     font-family:"roboto", sans-serif;
-    font-weight:570;
+    font-weight:600;
     color:rgb(83, 82, 82);
 }
 
@@ -123,7 +123,6 @@ font-size:30px;
           font-family:"Roboto", sans-serif;
           padding-top: 30px;
           padding-bottom:30px;
-          font-style: bold;
           background-color:rgb(201, 225, 233);
       }
 

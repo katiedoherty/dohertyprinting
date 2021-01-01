@@ -4,8 +4,10 @@
     margin-top:100px;
 }
 h2{
+    padding:15px;
+    text-align:center;
     font-family:"roboto", sans-serif;
-    font-weight:570;
+    font-weight:600;
     color:rgb(83, 82, 82);
 }
 
@@ -35,6 +37,8 @@ h5{
     column-count: 4;
     column-gap: 2px;
 }
+
+
 
 .photo img{
     width:100%;
